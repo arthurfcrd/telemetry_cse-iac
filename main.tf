@@ -56,7 +56,7 @@ name    =  "sqlserver" # add your name to make it unique. Can only consist of lo
 
 location    =  var.location 
 resource_group_name  =  var.rg_name  
-administrator_login   =  "adminAzure!" 
+administrator_login   =  "adminAzure" 
 administrator_password =  "adminAzure!"
  sku_name =  "B_Standard_B1ms" 
  version =  "8.0.21" 
