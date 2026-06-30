@@ -52,7 +52,7 @@ resource "azurerm_storage_container" "newcontainer2" {
 
 # Create MySQL Server 
 resource "azurerm_mysql_flexible_server" "serverformation1" { 
-name    =  "sqlserver" # add your name to make it unique. Can only consist of lowercase letters and numbers, and must be between 3 and 24 characters long.
+name    =  "sqlserverarthur" # add your name to make it unique. Can only consist of lowercase letters and numbers, and must be between 3 and 24 characters long.
 
 location    =  var.location 
 resource_group_name  =  var.rg_name  
