@@ -8,7 +8,7 @@ provider "azurerm" {
 
 # Create Storage Account 
 resource "azurerm_storage_account" "sg1" { 
- name      =  "otstorageaccount_arthurfcrd" # add your name to make it unique. Can only consist of lowercase letters and numbers, and must be between 3 and 24 characters long.
+ name      =  "otstorageaccountarthurfcrd" # add your name to make it unique. Can only consist of lowercase letters and numbers, and must be between 3 and 24 characters long.
  resource_group_name   =  var.rg_name
  location     =  var.location
  # Performance tier: Standard (HDD-backed)
@@ -30,7 +30,7 @@ resource "azurerm_storage_container" "newcontainer1" {
 
 # Create Storage Account 
 resource "azurerm_storage_account" "sg2" { 
- name      =  "csestologs_arthurfcrd" # add your name to make it unique. Can only consist of lowercase letters and numbers, and must be between 3 and 24 characters long.
+ name      =  "csestologsarthurfcrd" # add your name to make it unique. Can only consist of lowercase letters and numbers, and must be between 3 and 24 characters long.
  resource_group_name   =  var.rg_name
  location     =  var.location
  # Performance tier: Standard (HDD-backed)
@@ -56,8 +56,8 @@ name    =  "sqlserver" # add your name to make it unique. Can only consist of lo
 
 location    =  var.location 
 resource_group_name  =  var.rg_name  
-administrator_login   =  "admin" 
-administrator_password =  "admin"
+administrator_login   =  "admin11" 
+administrator_password =  "admin11"
  sku_name =  "B_Standard_B1ms" 
  version =  "8.0.21" 
  geo_redundant_backup_enabled = false 
